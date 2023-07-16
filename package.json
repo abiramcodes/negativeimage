@@ -1,18 +1,18 @@
 {
-  "name": "pencilsketch",
+  "name": "negativeimage",
   "version": "1.0.0",
-  "description": "A package to generate pencil sketches easily",
-  "main": "pencilSketch.js",
+  "description": "A package to generate negative/black&white images easily",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LokeshVarman/pencilSketch"
+    "url": "https://github.com/LokeshVarman/negativeimage"
 },
   "keywords": [
     "Lokesh",
-    "pencilSketch",
+    "negativeimage",
     "grayscale"
   ],
   "author": "Lokesh Varman",
