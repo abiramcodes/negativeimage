@@ -1,0 +1,23 @@
+{
+  "name": "pencilsketch",
+  "version": "1.0.0",
+  "description": "A package to generate pencil sketches easily",
+  "main": "pencilSketch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LokeshVarman/pencilSketch"
+},
+  "keywords": [
+    "Lokesh",
+    "pencilSketch",
+    "grayscale"
+  ],
+  "author": "Lokesh Varman",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^0.22.8"
+  }
+}
