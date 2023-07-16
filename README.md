@@ -1,7 +1,9 @@
 # pencilSketch
 A js package where you can easily create pencilsketches
+
 # @lokeshvarman/pencilSketch
 Create PencilSketch easily.
+
 ## Installation
 ```
 $ npm install @lokeshvarman/pencilSketch
