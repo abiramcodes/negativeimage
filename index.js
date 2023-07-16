@@ -1,6 +1,6 @@
 const Jimp = require('jimp');
 
-async function pencilSketch(inputPath, outputPath) {
+async function negativeimage(inputPath, outputPath) {
   try {
     // Load the input image
     const image = await Jimp.read(inputPath);
@@ -17,10 +17,10 @@ async function pencilSketch(inputPath, outputPath) {
     // Save the processed image
     await image.writeAsync(outputPath);
 
-    console.log('Pencil sketch created successfully!');
+    console.log('negative/black&white image created successfully!');
   } catch (error) {
     console.error('An error occurred:', error);
   }
 }
 
-module.exports = pencilSketch;
+module.exports = negativeimage;
