@@ -37,8 +37,3 @@ async function negativeimage(inputPath, outputPath, posterize) {
 }
 
 module.exports = negativeimage;
-
-const inputPath = 'example/flower.jpeg';
-const outputPath = './posterize.jpg';
-
-negativeimage(inputPath, outputPath,'posterize');
