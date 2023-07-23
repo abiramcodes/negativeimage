@@ -1,11 +1,11 @@
 const Jimp = require('jimp');
 
-async function negativeimage(inputPath, outputPath, posterize) {
+async function negativeimage(inputPath, outputPath, choice) {
   try {
     // Load the input image
     const image = await Jimp.read(inputPath);
     
-    if(posterize === 'posterize'){
+    if(choice === 'p'){
 
       //apply posterize effect
       image.posterize(4)
@@ -30,7 +30,7 @@ async function negativeimage(inputPath, outputPath, posterize) {
     // Save the processed image
     await image.writeAsync(outputPath);
 
-    console.log('negative/black&white image created successfully!');
+    console.log('the desired image created successfully!');
   } catch (error) {
     console.error('An error occurred:', error);
   }
